@@ -61,27 +61,31 @@ Thank you for your interest in this project! We welcome contributions of all kin
 ## ✍️ 论文格式 Paper Format
 
 ```markdown
-- **论文标题（中文或英文）**  
-  📅 *YYYY-MM* | 👤 *第一作者 et al.* | 🏢 *机构名*  
-  📄 [[Paper]](论文链接) | 💻 [[Code]](代码链接) | 🌐 [[Project]](项目主页) | 🎬 [[Demo]](演示视频)  
-  > 1-2句话简要描述论文的核心贡献和创新点
+- **论文标题**, 会议/期刊 年份. [[paper]](论文链接) [[code]](代码链接) [[website]](项目页面)
 ```
 
-### 必需字段
+### 示例 Example
+
+```markdown
+- **Diffusion Policy: Visuomotor Policy Learning via Action Diffusion**, RSS 2023. [[paper]](https://arxiv.org/abs/2303.04137) [[code]](https://github.com/real-stanford/diffusion_policy) [[website]](https://diffusion-policy.cs.columbia.edu/)
+
+- **RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control**, CoRL 2023. [[paper]](https://arxiv.org/abs/2307.15818) [[website]](https://robotics-transformer2.github.io/)
+
+- **Genie: Generative Interactive Environments**, arXiv 2024. [[paper]](https://arxiv.org/abs/2402.15391) [[website]](https://sites.google.com/view/genie-2024/)
+```
+
+### 必需字段 Required
 
 - ✅ 论文标题
-- ✅ 发表时间（精确到月份）
-- ✅ 第一作者（加 "et al." 如果有多位作者）
-- ✅ 机构
-- ✅ 论文链接
-- ✅ 简短描述
+- ✅ 发表会议/期刊或arXiv
+- ✅ 年份
+- ✅ `[[paper]]` 链接
 
-### 可选字段
+### 可选字段 Optional
 
-- 💻 代码仓库链接
-- 🌐 项目主页
-- 🎬 演示视频
-- 📊 数据集链接
+- `[[code]]` - 代码仓库（GitHub等）
+- `[[website]]` - 项目主页
+- `[[demo]]` - 演示视频（如果有单独的demo链接）
 
 ## 🏷️ 分类说明 Category Guidelines
 

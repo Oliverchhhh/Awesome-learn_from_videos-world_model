@@ -55,6 +55,12 @@ YYYY-MM
 
 
 
+## 参考格式 Format Reference
+
+```markdown
+- **论文标题**, 会议/期刊 年份. [[paper]](链接) [[code]](链接) [[website]](链接)
+```
+
 ---
 
 感谢您的贡献！我们会尽快审核并添加。
